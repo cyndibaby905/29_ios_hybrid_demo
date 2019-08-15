@@ -7,6 +7,12 @@ xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
 
 podfile: ./podfile
 
+before_install:
+- bundle install
+
 install:
-  - pod repo update
-  - pod install
+- pod repo update
+- bundle exec pod install --verbose
+
+cache:
+- cocoapods
