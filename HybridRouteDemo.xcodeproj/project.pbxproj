@@ -3,18 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		718DC2BF402FF20605BCEE4C /* Pods_HybridRouteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B607C3A69D9A04EAF1BBBA6E /* Pods_HybridRouteDemo.framework */; };
 		7765DB5D22EB2530007ED926 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765DB5C22EB2530007ED926 /* AppDelegate.m */; };
 		7765DB6022EB2530007ED926 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765DB5F22EB2530007ED926 /* ViewController.m */; };
-		7765DB6322EB2530007ED926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7765DB6122EB2530007ED926 /* Main.storyboard */; };
 		7765DB6522EB2531007ED926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7765DB6422EB2531007ED926 /* Assets.xcassets */; };
 		7765DB6822EB2531007ED926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7765DB6622EB2531007ED926 /* LaunchScreen.storyboard */; };
 		7765DB6B22EB2531007ED926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765DB6A22EB2531007ED926 /* main.m */; };
 		7765DB7522EB2531007ED926 /* HybridRouteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765DB7422EB2531007ED926 /* HybridRouteDemoTests.m */; };
 		7765DB8022EB2531007ED926 /* HybridRouteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765DB7F22EB2531007ED926 /* HybridRouteDemoUITests.m */; };
+		7765DB8F22EB25F3007ED926 /* FlutterHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765DB8E22EB25F3007ED926 /* FlutterHomeViewController.m */; };
+		7765DB9222EB2D58007ED926 /* SomeOtherNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7765DB9122EB2D58007ED926 /* SomeOtherNativeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		7765DB5C22EB2530007ED926 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7765DB5E22EB2530007ED926 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7765DB5F22EB2530007ED926 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7765DB6222EB2530007ED926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7765DB6422EB2531007ED926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7765DB6722EB2531007ED926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7765DB6922EB2531007ED926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		7765DB7B22EB2531007ED926 /* HybridRouteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HybridRouteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7765DB7F22EB2531007ED926 /* HybridRouteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HybridRouteDemoUITests.m; sourceTree = "<group>"; };
 		7765DB8122EB2531007ED926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7765DB8D22EB25F3007ED926 /* FlutterHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterHomeViewController.h; sourceTree = "<group>"; };
+		7765DB8E22EB25F3007ED926 /* FlutterHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterHomeViewController.m; sourceTree = "<group>"; };
+		7765DB9022EB2D58007ED926 /* SomeOtherNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeOtherNativeViewController.h; sourceTree = "<group>"; };
+		7765DB9122EB2D58007ED926 /* SomeOtherNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeOtherNativeViewController.m; sourceTree = "<group>"; };
+		9C58BB10841FD43EAE4084BC /* Pods-HybridRouteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridRouteDemo.release.xcconfig"; path = "Target Support Files/Pods-HybridRouteDemo/Pods-HybridRouteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B2C7B386457C197E049B5CA5 /* Pods-HybridRouteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HybridRouteDemo.debug.xcconfig"; path = "Target Support Files/Pods-HybridRouteDemo/Pods-HybridRouteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B607C3A69D9A04EAF1BBBA6E /* Pods_HybridRouteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HybridRouteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718DC2BF402FF20605BCEE4C /* Pods_HybridRouteDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38F2D54C21CB4551C37981EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2C7B386457C197E049B5CA5 /* Pods-HybridRouteDemo.debug.xcconfig */,
+				9C58BB10841FD43EAE4084BC /* Pods-HybridRouteDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7765DB4F22EB2530007ED926 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +103,8 @@
 				7765DB7322EB2531007ED926 /* HybridRouteDemoTests */,
 				7765DB7E22EB2531007ED926 /* HybridRouteDemoUITests */,
 				7765DB5922EB2530007ED926 /* Products */,
+				38F2D54C21CB4551C37981EB /* Pods */,
+				FFD0B1D9A8A4312EC1F5A32E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +125,14 @@
 				7765DB5C22EB2530007ED926 /* AppDelegate.m */,
 				7765DB5E22EB2530007ED926 /* ViewController.h */,
 				7765DB5F22EB2530007ED926 /* ViewController.m */,
-				7765DB6122EB2530007ED926 /* Main.storyboard */,
 				7765DB6422EB2531007ED926 /* Assets.xcassets */,
 				7765DB6622EB2531007ED926 /* LaunchScreen.storyboard */,
 				7765DB6922EB2531007ED926 /* Info.plist */,
 				7765DB6A22EB2531007ED926 /* main.m */,
+				7765DB8D22EB25F3007ED926 /* FlutterHomeViewController.h */,
+				7765DB8E22EB25F3007ED926 /* FlutterHomeViewController.m */,
+				7765DB9022EB2D58007ED926 /* SomeOtherNativeViewController.h */,
+				7765DB9122EB2D58007ED926 /* SomeOtherNativeViewController.m */,
 			);
 			path = HybridRouteDemo;
 			sourceTree = "<group>";
@@ -132,6 +155,14 @@
 			path = HybridRouteDemoUITests;
 			sourceTree = "<group>";
 		};
+		FFD0B1D9A8A4312EC1F5A32E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B607C3A69D9A04EAF1BBBA6E /* Pods_HybridRouteDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7765DB8422EB2531007ED926 /* Build configuration list for PBXNativeTarget "HybridRouteDemo" */;
 			buildPhases = (
+				15729F2737EF88E262712088 /* [CP] Check Pods Manifest.lock */,
 				7765DB5422EB2530007ED926 /* Sources */,
 				7765DB5522EB2530007ED926 /* Frameworks */,
 				7765DB5622EB2530007ED926 /* Resources */,
+				6A8B11592E989C26D8F60A00 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,7 +270,6 @@
 			files = (
 				7765DB6822EB2531007ED926 /* LaunchScreen.storyboard in Resources */,
 				7765DB6522EB2531007ED926 /* Assets.xcassets in Resources */,
-				7765DB6322EB2530007ED926 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,12 +289,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15729F2737EF88E262712088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HybridRouteDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A8B11592E989C26D8F60A00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HybridRouteDemo/Pods-HybridRouteDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HybridRouteDemo/Pods-HybridRouteDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HybridRouteDemo/Pods-HybridRouteDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7765DB5422EB2530007ED926 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7765DB8F22EB25F3007ED926 /* FlutterHomeViewController.m in Sources */,
 				7765DB6022EB2530007ED926 /* ViewController.m in Sources */,
+				7765DB9222EB2D58007ED926 /* SomeOtherNativeViewController.m in Sources */,
 				7765DB6B22EB2531007ED926 /* main.m in Sources */,
 				7765DB5D22EB2530007ED926 /* AppDelegate.m in Sources */,
 			);
@@ -300,14 +376,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7765DB6122EB2530007ED926 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7765DB6222EB2530007ED926 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7765DB6622EB2531007ED926 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,9 +501,12 @@
 		};
 		7765DB8522EB2531007ED926 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C7B386457C197E049B5CA5 /* Pods-HybridRouteDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZHDM3L4PN;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HybridRouteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +520,12 @@
 		};
 		7765DB8622EB2531007ED926 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C58BB10841FD43EAE4084BC /* Pods-HybridRouteDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CZHDM3L4PN;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = HybridRouteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

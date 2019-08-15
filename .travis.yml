@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode10.2
+before_script:
+  - pod repo update
+script:
+  - pod install
+  - xcodebuild archive -workspace HybridRouteDemo.xcworkspace -scheme HybridRouteDemo -archivePath ./HybridRouteDemo.xcarchive

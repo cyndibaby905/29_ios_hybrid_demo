@@ -1,0 +1,16 @@
+PODS:
+  - FlutterEngine (0.1.0)
+
+DEPENDENCIES:
+  - FlutterEngine (from `./`)
+
+EXTERNAL SOURCES:
+  FlutterEngine:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  FlutterEngine: 119d6c44ee1f3855099691d45b2150f72a5b97b5
+
+PODFILE CHECKSUM: 3a38d227fe541093107dfdc74218679966568ce7
+
+COCOAPODS: 1.7.5
