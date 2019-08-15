@@ -1,7 +1,12 @@
 language: objective-c
 osx_image: xcode10.2
-before_script:
+
+xcode_workspace: HybridRouteDemo.xcworkspace
+xcode_scheme: HybridRouteDemo
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
+
+podfile: ./podfile
+
+install:
   - pod repo update
-script:
   - pod install
-  - travis_retry xcodebuild archive -workspace HybridRouteDemo.xcworkspace -scheme HybridRouteDemo -archivePath ./HybridRouteDemo.xcarchive
