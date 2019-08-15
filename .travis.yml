@@ -4,4 +4,4 @@ before_script:
   - pod repo update
 script:
   - pod install
-  - xcodebuild archive -workspace HybridRouteDemo.xcworkspace -scheme HybridRouteDemo -archivePath ./HybridRouteDemo.xcarchive
+  - travis_retry xcodebuild archive -workspace HybridRouteDemo.xcworkspace -scheme HybridRouteDemo -archivePath ./HybridRouteDemo.xcarchive
