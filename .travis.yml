@@ -1,9 +1,9 @@
 language: objective-c
-osx_image: xcode10.2
+osx_image: xcode10.3
 
 xcode_workspace: HybridRouteDemo.xcworkspace
 xcode_scheme: HybridRouteDemo
-xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=12.4,name=iPhone X
 
 podfile: ./podfile
 
