@@ -1,13 +1,18 @@
 language: objective-c
 osx_image: xcode10.2
 
+xcode_workspace: HybridRouteDemo.xcworkspace
+xcode_scheme: HybridRouteDemo
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone X
+
+podfile: ./podfile
+
 before_install:
 - bundle install
 
 install:
-- pod repo update
-- bundle exec pod install --verbose
-- xcodebuild -workspace HybridRouteDemo.xcworkspace -scheme HybridRouteDemo -destination platform\=iOS\ Simulator,OS\=12.2,name\=iPhone\ X
+  - pod repo update
+  - pod install
 
 cache:
-- cocoapods
+  - cocoapods
